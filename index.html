@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="header">
+        <h1>David</h1>
+        <div class="navs">
+            <a href="index.html">Home</a>
+            <a href="services.html">Services</a>
+            <a href="contact.html">Contact</a>
+        </div>
+        <div class="btn">
+            <button><a href="contact.html">Contact Me</button></a>
+        </div>
+    </div>
+    <div class="hero">
+        <img src="Images/cameron-crovetti.jpeg" alt="corvetti">
+        <h2>David Wokoma</h2>
+        <p>A Creative Freelancer & Front-end Developer</p>
+    </div>
+    <div class="service">
+        <img src="Images/E1.jpg" alt="E1">
+        <div class="abt">
+            <span>Discover</span>
+            <h3>About Me</h3>
+            <p>My Name is David Wokoma. I'm a Freelancer & Front-end Developer based in Port Harcourt, Nigeria. I'm very
+                passionate about my work with 1 year experience.</p>
+            <div class="container">
+                <strong>Name: <h4>David Wokoma</h4></strong>
+                <strong>Phone: <h4>09131872334</h4></strong>
+                <strong>Experience: <h4>1 Year</h4></strong>
+                <strong>Freelance: <h4>Available</h4></strong>
+            </div>
+            <button><a href="Document/Mba Somtochukwu.resume.pdf">Download CV</button></a>
+        </div>
+    </div>
+    <div class="services">
+        <span>What I Do</span>
+        <h3>My Services</h3>
+        <div class="cont2">
+            <div class="cont4">
+                <h5>Creative Design</h5>
+                <p>I build Website Template</p>
+            </div>
+            <div class="cont4">
+                <h5>Branding</h5>
+                <p>I Create Suitable website to match your aesthetic</p>
+            </div>
+            <div class="cont4">
+                <h5>User Interface(UI)</h5>
+                <p>I build Responsive websites</p>
+            </div>
+        </div>
+    </div>
+    <footer>&copy;2026 David Wokoma</footer>
+    <style>
+        body {
+            margin: 0;
+        }
+
+        .header {
+            padding: 10px;
+            background: #0b1b34;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            font-family: Georgia, Times, 'Times New Roman', serif;
+        }
+
+        h1 {
+            font-size: 30px;
+            color: aliceblue;
+        }
+
+        .navs {
+            display: flex;
+            gap: 20px;
+        }
+
+        .navs a {
+            text-decoration: none;
+            color: aliceblue;
+        }
+
+        .btn {
+            border: 1px solid aliceblue;
+            padding: 9px;
+            color: #0b1b34;
+            border-radius: 15px;
+        }
+
+        .btn a {
+            color: #0b1b34;
+            text-decoration: none;
+        }
+
+        .hero {
+            text-align: center;
+            padding: 20px;
+            background: #081226;
+            color: aliceblue;
+        }
+
+        .hero img {
+            border-radius: 50%;
+            height: 150px;
+            width: 150px;
+        }
+
+        .hero p {
+            position: relative;
+            bottom: 15px;
+        }
+
+        .service {
+            padding: 15px;
+            background: #0a1931;
+            color: aliceblue;
+            display: flex;
+        }
+
+        .service img {
+            width: 150px;
+            height: 250px;
+            border: none;
+            position: relative;
+            margin-top: 15px;
+        }
+
+        span {
+            color: blue;
+        }
+
+        .abt {
+            margin: 10px;
+        }
+
+        .abt h3 {
+            position: relative;
+            bottom: 15px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            text-decoration: underline;
+        }
+
+        .abt p {
+            position: relative;
+            bottom: 15px;
+        }
+
+        .container {
+            display: flex;
+            justify-content: space-between;
+            padding: 8px;
+            width: 100%;
+            border: 1px solid blue;
+        }
+
+        .container h4 {
+            color: aliceblue;
+        }
+
+        strong {
+            color: blue;
+        }
+
+        button {
+            position: relative;
+            margin-top: 10px;
+            border: none;
+            padding: 10px;
+            background: blue;
+            color: aliceblue;
+            font-family: Impact, sans-serif;
+        }
+
+        button a {
+            color: aliceblue;
+            text-decoration: none;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        }
+
+        .services {
+            margin: 0px;
+            padding: 20px;
+            background: #0f2340;
+            color: aliceblue;
+        }
+
+        .services h3 {
+            text-decoration: underline;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            position: relative;
+            bottom: 15px;
+        }
+
+        .cont2 {
+            position: relative;
+            bottom: 25px;
+            display: flex;
+            text-align: left;
+        }
+
+        .cont4 {
+            padding: 20px;
+            flex: 1;
+            background: blue;
+            border: 3px solid #0a1931;
+            border-radius: 15px;
+        }
+
+        .cont4 h5 {
+            font-size: 18px;
+            margin-bottom: 13px;
+            font-weight: bold;
+        }
+
+        .cont4 p {
+            font-size: 14px;
+            line-height: 1.8;
+        }
+
+        footer {
+            text-align: center;
+            padding: 15px;
+            background: #0b1b34;
+            margin: 0;
+            color: blue;
+        }
+
+        @media screen and (max-width:768px) {
+            .header {
+                flex-direction: column;
+                gap: 15px;
+                text-align: center;
+            }
+
+            .service {
+                flex-direction: column;
+                text-align: center;
+            }
+
+            .service img {
+                width: 100%;
+                max-width: 250px;
+                height: auto;
+            }
+
+            .container div {
+                flex: 1 1 100%;
+            }
+
+            .cont2 {
+                flex-direction: column;
+            }
+        }
+    </style>
+</body>
+
+</html>
